@@ -57,7 +57,7 @@ namespace No_9
                 
                 foreach (var item in product_List)
                 {
-                    Console.WriteLine(item.ToString()); // Assumes a console application
+                    Console.WriteLine(item.ToString());
                 }
 
                 Console.WriteLine("---\nTotal amount: " + total + " baht");
