@@ -59,8 +59,8 @@ namespace No_9
                 {
                     Console.WriteLine(item.ToString());
                 }
-
-                Console.WriteLine("---\nTotal amount: " + total + " baht");
+                string tt = string.Format("{0:0,0}", total);
+                Console.WriteLine("---\nTotal amount: " + tt + " baht");
             } while (k == 1);
         }
     }     
